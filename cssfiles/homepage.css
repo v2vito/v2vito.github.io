@@ -105,13 +105,4 @@ header {
   #headerimage img{
     max-width: 150px;
   }
-  .navbar{
-    display: flex;
-    flex-direction: column;
-    font-size: 100%;
-    overflow:hidden;
-    position:static;
-  }
-
-
 }
