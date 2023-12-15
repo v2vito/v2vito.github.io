@@ -1,0 +1,117 @@
+
+/* defining the header class  */
+header {
+    display:grid;
+    grid-template-columns:30%,40%,30%;
+    grid-template-areas: '. header_text headerimage';
+    padding: 30px;
+    text-align: center;
+    background: #cc1508;
+    color: white;
+
+  }
+/* defineing header 1 */
+#header_text{ 
+  grid-area: header_text;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+#header_btext{
+  font-size:40px; 
+  grid-area: header_btext;
+}
+#header_stext{
+  font-size: 20px;
+  grid-area: header_stext;
+}
+
+#headerimage{
+  grid-area: headerimage;
+}
+#headerimage img{
+  justify-self: center;
+  border-radius: 50%;
+  border-width: 3px;
+  border-color:white ;
+  border-style: solid;
+}
+
+
+
+
+
+
+.aboutme{
+  width: 100%;
+  min-height:90vh;
+}
+.aboutme .container{
+  width: 80%;
+  display:flex;
+  margin: auto;
+  padding-top: 100px;
+  gap: 1rem;
+}
+.aboutme  .container .content-section{
+  margin-top: 5rem;
+  float: left;
+  width: 55%;
+}
+#aboutme_title{
+  font-size: 25px;
+  text-align: center;
+}
+#aboutme_text{
+  font-size: 20px;
+  text-align: center;
+}
+#aboutme_image{
+  float: right;
+  
+}
+#aboutme_image img{
+  border-radius: 30px ;
+  max-width: 100%;
+}
+
+
+@media (max-width:1400px){
+  .aboutme .container .content-section{
+    margin-top: 0px;
+    align-self: center;
+  }
+
+  .aboutme .container{
+    object-fit: center;
+    width: 100%;
+    margin:0px;
+    padding-top: 10px;
+    flex-direction: column;
+  }
+  #aboutme_image{
+    padding: 0%;
+    margin: 0%;
+    align-self: center;
+  }
+  
+}
+@media (max-width:700px){
+  header {
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  #headerimage img{
+    max-width: 150px;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+    overflow:hidden;
+    position:static;
+  }
+
+
+}
