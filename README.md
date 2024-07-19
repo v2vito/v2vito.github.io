@@ -12,7 +12,7 @@ For the first person to copy over the code, initialise it into your own reposito
 Add all the participants into this repository (Search YouTube/online how to do this - should be pretty easy)
 
 Next, clone the repository onto your device  (On VScode, 3rd down on the left, the icon which looks like a branch, will say clone repository).
- This should have downloaded all the code onto your device. Ensure you remember where to download the file to make it easy for yourself! I recommend making a desktop file for ease.
+This should have downloaded all the code onto your device. Ensure you remember where to download the file to make it easy for yourself! I recommend making a desktop file for ease.
 
 If you haven't already, download the Arduino IDE. (You can try to install the Arduino add-on and use vscode exclusively however I find it easier to code in Arduino and use vscode to commit and pull code.)
 I recommend opening the code_scratch.ino file. This should open all the .ino Arduino files and the .h file.
@@ -20,6 +20,7 @@ I recommend opening the code_scratch.ino file. This should open all the .ino Ard
 Now we need to install all the libraries and be able to run the code.
 
 Step 1: Click Select board -> Select other board and port (It is possible that the board already shows at this stage) -> Arduino Uno -> OK 
+
 Step 2: Installing all the libraries required. (If you have used Arduino before, consider uninstalling all your previous libraries to make it easier to manage this project).
        
         On code_scratch.ino, next to all the #includes the library name author and version are stated. (Some modules have many libraries of specific names so be careful which you download or else it will           not work!)
